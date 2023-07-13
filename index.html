@@ -16,15 +16,16 @@
   <body>
     <div class="quote-box">
       <h2>Quote Of The Day</h2>
-      <blockquote>Loading.......</blockquote>
-      <span>Loading.......</span>
+      <blockquote id="quote">Loading.......</blockquote>
+      <span id="author">Loading.......</span>
       <div>
-        <button>New Quote</button>
-        <button>
+        <button onclick="getQuote(apiUrl)">New Quote</button>
+        <button onclick="twitter()">
           <img src="twitter-logo-24.png" loading="lazy" alt="twitter-logo" />
           Twitter
         </button>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
